@@ -35,7 +35,7 @@ span {
     height: 10px;
     margin-right: 10px;
 }
-#button{
+.button{
     display: inline-block;
     background-color: #1BB0CE;
     height: 60px;
@@ -47,8 +47,54 @@ span {
 
     transition: all 0.3s ease;
 }
-#button:hover {
+.button:hover {
     transform: scale(1.04);
     opacity: 0.7;
     box-shadow: none;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.card-title{
+    max-width: 627px;
+    position: relative;
+    top: 160px;
+    left: 90px;
+}
+.title{
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0px #000000;
+    /*filter: drop-shadow(10px 10px 0px #000000);*/
+    
+    
+    /* height: 184px; */
+    
+    color: #fff;
+    text-align: center;
+    font-family: "Press Start 2P", Arial, sans-serif;
+    padding: 42px 47px;
+
+}
+.title > h1 {
+    font-size: 40px;
+    margin-bottom: 28px;
+   color: #1BB0CE;
+   text-shadow: 4px 4px 0px #000;
+}
+.title > h2 {
+    font-size: 30px;
+    text-shadow: 4px 4px 0px #000;
+}
+
+.card-title .action-btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 38px;
+    
 }
