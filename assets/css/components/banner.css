@@ -1,5 +1,5 @@
 .banner {
-    background-image: url(../../img/photo.jpg);
+    background-image: url(../../img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 .banner .wrapper {
-    width: 640px;
+    width: 660px;
     display: flex;
     flex-direction: column;
 }
