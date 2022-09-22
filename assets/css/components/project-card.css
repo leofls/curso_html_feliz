@@ -1,0 +1,20 @@
+.project-card{
+    box-sizing: border-box;
+    background-color: #4F8699;
+    width: 280px;
+    height: 280px;
+    padding: 17px 35px;
+    box-shadow: 10px 10px 0 #fff;
+    display: flex;
+    justify-content: center;    
+}
+
+.project-card:nth-child(2){
+    background-color: #4C5B84;
+}
+.project-card.no-bg{
+    padding: 0;
+    background-color: #4C5B84;
+    box-shadow: none;
+}
+

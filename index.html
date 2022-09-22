@@ -12,57 +12,122 @@
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     
-    <link rel="stylesheet" href="assets/css/components/header.css">
-    <link rel="stylesheet" href="assets/css/components/banner.css">
+    <link rel="stylesheet" href="assets/css/components/main-header.css">
+    <link rel="stylesheet" href="assets/css/components/main-banner.css">
     <link rel="stylesheet" href="assets/css/components/main-title.css">
-    <link rel="stylesheet" href="assets/css/components/subtitle.css">
-    <link rel="stylesheet" href="assets/css/components/box.css">
-    <link rel="stylesheet" href="assets/css/components/button.css">
-    <link rel="stylesheet" href="assets/css/components/action.css">
-    <link rel="stylesheet" href="assets/css/components/section.css">
+    <link rel="stylesheet" href="assets/css/components/main-subtitle.css">
+    <link rel="stylesheet" href="assets/css/components/main-box.css">
+    <link rel="stylesheet" href="assets/css/components/main-button.css">
+    <link rel="stylesheet" href="assets/css/components/main-action.css">
+    <link rel="stylesheet" href="assets/css/components/main-section.css">
     <link rel="stylesheet" href="assets/css/components/skill-tec.css">
+    <link rel="stylesheet" href="assets/css/components/wrapper-skill.css">
     <link rel="stylesheet" href="assets/css/components/progress-bar.css">
+    <link rel="stylesheet" href="assets/css/components/project-card.css">
+    <link rel="stylesheet" href="assets/css/components/wrapper-projetos.css">
 </head>
 <body>
-    <header class="header">
+    <header class="main-header">
         <img class="logo" src="./assets/img/logo_anime.png" alt="Logo do Leandro F.">
 
         <nav>
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a id="button" class="button" href="" lang="en">Download CV</a>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
+            <a id="button" class="main-button" href="" lang="en">Download CV</a>
             
         </nav>
     </header>
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
+            <div class="main-box">
                 <h1 class="main-title">Leandro F.</h1>
-                <h2 class="subtitle">Fullstack Developer</h2>
+                <h2 class="main-subtitle">Fullstack Developer</h2>
             </div>
             <div class="navigation">
-                <a class="button" href="#" lang="en">Download CV</a>
-                <a class="button" href="#">Contatos</a>
+                <a class="main-button" href="#" lang="en">Download CV</a>
+                <a class="main-button" href="#">Contatos</a>
             </div>
 
         </div>
 
     </section>
 
-    <section class="section">
+    <section class="main-section">
         <h2 class="main-title -second">Skills</h2>
-        <article class="skill-tec">
-            <img class="icon" src="./assets/img/skills_icons/ico_html5.png" alt="Icone Html">
-            <div class="right">
-                <h3 class="title">HTML</h3>
-                <progress class="progress-bar" max="100" value="70">70%</progress>
-            </div>
-        </article>
+        <div class="wrapper-skill">
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/skills_icons/ico_html5.png" alt="Icone Html">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/skills_icons/ico_nodejs.png" alt="Icone NodeJS">
+                <div class="right">
+                    <h3 class="title">NodeJS</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/skills_icons/ico_css3.png" alt="Icone CSS3">
+                <div class="right">
+                    <h3 class="title">CSS3</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/skills_icons/ico_tdd.png" alt="Icone TDD">
+                <div class="right">
+                    <h3 class="title">TDD</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/skills_icons/ico_js.png" alt="Icone JavaScript">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/skills_icons/ico_restapi.png" alt="Icone Rest Api">
+                <div class="right">
+                    <h3 class="title">Rest API</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/skills_icons/ico_react.png" alt="Icone React">
+                <div class="right">
+                    <h3 class="title">React</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="./assets/img/skills_icons/ico_ux.png" alt="Icone UX">
+                <div class="right">
+                    <h3 class="title">UX</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+        </div>
     </section>
-    <section class="section">
-
+    <section class="main-section -second">
+        <h2 class="main-title -second">Projetos</h2>
+        <div class="wrapper-projetos">
+            <div class="project-card">
+                <img src="./assets/img/logo-firedlabs.png" alt="Icone Logo Firelabs">
+            </div>
+            <div class="project-card">
+                <img src="./assets/img/logo-collabcode.png" alt="Icone Logo collabcode">
+            </div>
+            <div class="project-card no-bg">
+                <img src="./assets/img/portfolio.png" alt="Icone Logo Firelabs">
+            </div>
+        </div>
     </section>
 
 </body>

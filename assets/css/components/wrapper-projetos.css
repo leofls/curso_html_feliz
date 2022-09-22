@@ -1,0 +1,8 @@
+.wrapper-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}
