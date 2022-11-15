@@ -1,0 +1,52 @@
+.main-carosel {
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.main-carosel::after {
+    content: '';
+    height: 6px;
+    width: calc(100% - 100px);
+    left: 50px;
+    top: 38px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+}
+
+.main-carosel::before{
+    content: "";
+    box-sizing: border-box;
+    width: 100%;
+    left: 0;
+    top: 38.2px;
+    border: 3px dashed #000;
+    position: absolute;
+}
+
+.main-carosel .button-arrow {
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+.main-carosel .button-arrow.-left{
+    left: 15px;
+}
+.main-carosel .button-arrow.-right{
+    right: 15px;
+}
+
+.main-carosel .items {    
+    width: 100%;
+    overflow: hidden;
+}
+.main-carosel .elements {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: all 100ms ease-in-out;
+}
