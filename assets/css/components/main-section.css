@@ -18,6 +18,12 @@
 .main-section.-bgSecond {
     background-color: #4F8699;
 }
+
+.main-section.-bgGray {
+    background-color: #3A4042;
+}
+
+
 .main-section.-bdBlack{
     border-color: #000;
 }

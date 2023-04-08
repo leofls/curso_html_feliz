@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="assets/css/components/button-arrow.css" />
     <link rel="stylesheet" href="assets/css/components/node-card.css" />
     <link rel="stylesheet" href="assets/css/components/main-carosel.css" />
+    <link rel="stylesheet" href="assets/css/components/main-form.css" />
     <link rel="stylesheet" href="assets/css/components/main-footer.css" />
   </head>
   <body>
@@ -250,6 +251,26 @@
       </p>
     </section>
 
+    <section class="main-section -form-section -bgGray -bdBlack">
+      <h2 class="main-title -second">Contato</h2>
+
+      <form class="main-form" method="post">
+        <div class="form-group">
+          <label class="label-field" for="input-nome">Nome</label>
+          <input class="input-field" type="text" id="input-nome" required>
+        </div>
+        <div class="form-group">
+          <label class="label-field" for="input-email">Email</label>
+          <input class="input-field" type="email" id="input-email" required>
+        </div>
+        <div class="form-group">
+          <label class="label-field" for="input-mesagem">Mensagem</label>
+          <textarea class="input-field" type="email" id="input-mesagem" required></textarea>
+        </div>
+
+        <button class="main-button" type="submit">Enviar</button>
+      </form>
+    </section>
     <footer class="main-footer">
         <a class="action" href="#" target="_blank">
             <img src="./assets/img/icon-twitter.png" alt="logo do Twitter em pixelart">
